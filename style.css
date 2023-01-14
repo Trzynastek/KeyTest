@@ -144,6 +144,17 @@ body {
     padding: 15px 35px;
     color: #636363;
     font-size: 26px;
+    justify-content: space-between;
+}
+
+#github {
+    cursor: pointer;
+    color: #636363;
+    padding: 15px 35px;
+}
+
+#github:hover {
+    color: #36af54;
 }
 
 .background {
