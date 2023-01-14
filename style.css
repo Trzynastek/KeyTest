@@ -145,6 +145,7 @@ body {
     color: #636363;
     font-size: 26px;
     justify-content: space-between;
+    display: flex;
 }
 
 #github {
