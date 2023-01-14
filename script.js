@@ -342,7 +342,7 @@ function display() {
         time = Math.round((end - start) / 1000) / 60
         wpm = Math.round(20 / time)
         accuracy = Math.round(((document.querySelectorAll('#main .symbol').length - errors) / document.querySelectorAll('#main .symbol').length) * 100)
-        document.getElementById("wpm").innerHTML = "WPM: " + wpm
+        document.getElementById("wpm").innerHTML = "WPM: " + wpm * (accuracy / 100)
         document.getElementById("time").innerHTML = "Time: " + Math.round((end - start) / 1000) + "s"
         document.getElementById("errors").innerHTML = "Errors: " + errors
         document.getElementById("accuracy").innerHTML = "Accuracy: " + accuracy + "%"
