@@ -146,12 +146,12 @@ body {
     font-size: 26px;
     justify-content: space-between;
     display: flex;
+    width: 100%;
 }
 
 #github {
     cursor: pointer;
     color: #636363;
-    padding: 15px 35px;
 }
 
 #github:hover {
